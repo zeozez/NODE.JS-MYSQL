@@ -8,3 +8,5 @@ This project includes a Tensorflow implementation of DeepFM [1].
 
 # Usage
 ## Input Format
+This implementation requires the input data in the following format:
+- [ ] **Xi**: *[[ind1_1, ind1_2, ...], [ind2_1, ind2_2, ...], ..., [indi_1, indi_2, ..., indi_j, ...], ...]*
