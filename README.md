@@ -11,3 +11,4 @@ This project includes a Tensorflow implementation of DeepFM [1].
 This implementation requires the input data in the following format:
 - [ ] **Xi**: *[[ind1_1, ind1_2, ...], [ind2_1, ind2_2, ...], ..., [indi_1, indi_2, ..., indi_j, ...], ...]*
     - *indi_j* is the feature index of feature field *j* of sample *i* in the dataset
+- [ ] **Xv**: *[[val1_1, val1_2, ...], [val2_1, val2_2, ...], ..., [vali_1, vali_2, ..., vali_j, ...], ...]*
