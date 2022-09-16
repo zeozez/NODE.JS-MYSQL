@@ -26,3 +26,4 @@ from sklearn.metrics import roc_auc_score
 # params
 dfm_params = {
     "use_fm": True,
+    "use_deep": True,
