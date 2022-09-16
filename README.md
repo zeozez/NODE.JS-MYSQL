@@ -20,3 +20,4 @@ Please see `example/DataReader.py` an example how to prepare the data in require
 
 ## Init and train a model
 ```
+import tensorflow as tf
