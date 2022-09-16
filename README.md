@@ -17,3 +17,6 @@ This implementation requires the input data in the following format:
 - [ ] **y**: target of each sample in the dataset (1/0 for classification, numeric number for regression)
 
 Please see `example/DataReader.py` an example how to prepare the data in required format for DeepFM.
+
+## Init and train a model
+```
