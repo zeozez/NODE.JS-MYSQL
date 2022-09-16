@@ -30,3 +30,4 @@ dfm_params = {
     "embedding_size": 8,
     "dropout_fm": [1.0, 1.0],
     "deep_layers": [32, 32],
+    "dropout_deep": [0.5, 0.5, 0.5],
