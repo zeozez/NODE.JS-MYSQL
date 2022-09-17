@@ -33,3 +33,6 @@ dfm_params = {
     "dropout_deep": [0.5, 0.5, 0.5],
     "deep_layers_activation": tf.nn.relu,
     "epoch": 30,
+    "batch_size": 1024,
+    "learning_rate": 0.001,
+    "optimizer_type": "adam",
