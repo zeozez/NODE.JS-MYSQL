@@ -38,3 +38,4 @@ dfm_params = {
     "optimizer_type": "adam",
     "batch_norm": 1,
     "batch_norm_decay": 0.995,
+    "l2_reg": 0.01,
