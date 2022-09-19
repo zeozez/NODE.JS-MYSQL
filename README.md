@@ -39,3 +39,6 @@ dfm_params = {
     "batch_norm": 1,
     "batch_norm_decay": 0.995,
     "l2_reg": 0.01,
+    "verbose": True,
+    "eval_metric": roc_auc_score,
+    "random_seed": 2017
