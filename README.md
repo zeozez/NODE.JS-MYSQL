@@ -43,3 +43,6 @@ dfm_params = {
     "eval_metric": roc_auc_score,
     "random_seed": 2017
 }
+
+# prepare training and validation data in the required format
+Xi_train, Xv_train, y_train = prepare(...)
