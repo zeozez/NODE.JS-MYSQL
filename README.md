@@ -52,3 +52,4 @@ Xi_valid, Xv_valid, y_valid = prepare(...)
 dfm = DeepFM(**dfm_params)
 
 # fit a DeepFM model
+dfm.fit(Xi_train, Xv_train, y_train)
