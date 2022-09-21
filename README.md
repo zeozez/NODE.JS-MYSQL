@@ -53,3 +53,5 @@ dfm = DeepFM(**dfm_params)
 
 # fit a DeepFM model
 dfm.fit(Xi_train, Xv_train, y_train)
+
+# make prediction
