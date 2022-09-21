@@ -55,3 +55,4 @@ dfm = DeepFM(**dfm_params)
 dfm.fit(Xi_train, Xv_train, y_train)
 
 # make prediction
+dfm.predict(Xi_valid, Xv_valid)
