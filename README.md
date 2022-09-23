@@ -59,3 +59,4 @@ dfm.predict(Xi_valid, Xv_valid)
 
 # evaluate a trained model
 dfm.evaluate(Xi_valid, Xv_valid, y_valid)
+```
