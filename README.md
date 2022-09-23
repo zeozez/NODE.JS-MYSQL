@@ -62,3 +62,6 @@ dfm.evaluate(Xi_valid, Xv_valid, y_valid)
 ```
 
 You can use early_stopping in the training as follow
+```
+dfm.fit(Xi_train, Xv_train, y_train, Xi_valid, Xv_valid, y_valid, early_stopping=True)
+```
