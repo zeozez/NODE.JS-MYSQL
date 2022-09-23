@@ -65,3 +65,5 @@ You can use early_stopping in the training as follow
 ```
 dfm.fit(Xi_train, Xv_train, y_train, Xi_valid, Xv_valid, y_valid, early_stopping=True)
 ```
+
+You can refit the model on the whole training and validation set as follow
