@@ -60,3 +60,5 @@ dfm.predict(Xi_valid, Xv_valid)
 # evaluate a trained model
 dfm.evaluate(Xi_valid, Xv_valid, y_valid)
 ```
+
+You can use early_stopping in the training as follow
