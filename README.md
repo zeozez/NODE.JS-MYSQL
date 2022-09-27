@@ -84,3 +84,4 @@ Please download the data from the competition website and put them into the `exa
 To train DeepFM model for this dataset, run
 
 ```
+$ cd example
