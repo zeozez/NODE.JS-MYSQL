@@ -75,3 +75,6 @@ You can use the FM or DNN part only by setting the parameter `use_fm` or `use_dn
 
 ## Regression
 This implementation also supports regression task. To use DeepFM for regression, you can set `loss_type` as `mse`. Accordingly, you should use eval_metric for regression, e.g., mse or mae.
+
+# Example
+Folder `example` includes an example usage of DeepFM/FM/DNN models for [Porto Seguro's Safe Driver Prediction competition on Kaggle](https://www.kaggle.com/c/porto-seguro-safe-driver-prediction).
