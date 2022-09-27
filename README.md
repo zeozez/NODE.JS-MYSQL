@@ -78,3 +78,7 @@ This implementation also supports regression task. To use DeepFM for regression,
 
 # Example
 Folder `example` includes an example usage of DeepFM/FM/DNN models for [Porto Seguro's Safe Driver Prediction competition on Kaggle](https://www.kaggle.com/c/porto-seguro-safe-driver-prediction).
+
+Please download the data from the competition website and put them into the `example/data` folder.
+
+To train DeepFM model for this dataset, run
