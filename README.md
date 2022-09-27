@@ -72,3 +72,6 @@ dfm.fit(Xi_train, Xv_train, y_train, Xi_valid, Xv_valid, y_valid, early_stopping
 ```
 
 You can use the FM or DNN part only by setting the parameter `use_fm` or `use_dnn` to `False`.
+
+## Regression
+This implementation also supports regression task. To use DeepFM for regression, you can set `loss_type` as `mse`. Accordingly, you should use eval_metric for regression, e.g., mse or mae.
