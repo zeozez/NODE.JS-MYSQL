@@ -94,3 +94,5 @@ Please see `example/DataReader.py` how to parse the raw dataset into the require
 ### DeepFM
 
 ![dfm](example/fig/DeepFM.png)
+
+### FM
