@@ -105,3 +105,4 @@ Please see `example/DataReader.py` how to parse the raw dataset into the require
 
 ## Some tips
 - [ ] You should tune the parameters for each model in order to get reasonable performance.
+- [ ] You can also try to ensemble these models or ensemble them with other models (e.g., XGBoost or LightGBM).
