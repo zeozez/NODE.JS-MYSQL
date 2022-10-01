@@ -102,3 +102,6 @@ Please see `example/DataReader.py` how to parse the raw dataset into the require
 ### DNN
 
 ![dnn](example/fig/DNN.png)
+
+## Some tips
+- [ ] You should tune the parameters for each model in order to get reasonable performance.
