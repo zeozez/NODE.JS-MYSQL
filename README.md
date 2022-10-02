@@ -106,3 +106,6 @@ Please see `example/DataReader.py` how to parse the raw dataset into the require
 ## Some tips
 - [ ] You should tune the parameters for each model in order to get reasonable performance.
 - [ ] You can also try to ensemble these models or ensemble them with other models (e.g., XGBoost or LightGBM).
+
+# Reference
+[1] *DeepFM: A Factorization-Machine based Neural Network for CTR Prediction*, Huifeng Guo, Ruiming Tang, Yunming Yey, Zhenguo Li, Xiuqiang He.
