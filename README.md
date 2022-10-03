@@ -114,3 +114,6 @@ Please see `example/DataReader.py` how to parse the raw dataset into the require
 This project gets inspirations from the following projects:
 - [ ] He Xiangnan's [neural_factorization_machine](https://github.com/hexiangnan/neural_factorization_machine)
 - [ ] Jian Zhang's [YellowFin](https://github.com/JianGoForIt/YellowFin) (yellowfin optimizer is taken from here)
+
+# License
+MIT
