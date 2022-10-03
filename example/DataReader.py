@@ -8,3 +8,4 @@ import pandas as pd
 
 class FeatureDictionary(object):
     def __init__(self, trainfile=None, testfile=None,
+                 dfTrain=None, dfTest=None, numeric_cols=[], ignore_cols=[]):
