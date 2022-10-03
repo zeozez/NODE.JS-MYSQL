@@ -109,3 +109,6 @@ Please see `example/DataReader.py` how to parse the raw dataset into the require
 
 # Reference
 [1] *DeepFM: A Factorization-Machine based Neural Network for CTR Prediction*, Huifeng Guo, Ruiming Tang, Yunming Yey, Zhenguo Li, Xiuqiang He.
+
+# Acknowledgments
+This project gets inspirations from the following projects:
