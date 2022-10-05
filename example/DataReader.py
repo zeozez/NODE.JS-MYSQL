@@ -32,3 +32,6 @@ class FeatureDictionary(object):
             dfTest = self.dfTest
         df = pd.concat([dfTrain, dfTest])
         self.feat_dict = {}
+        tc = 0
+        for col in df.columns:
+            if col in self.ignore_cols:
