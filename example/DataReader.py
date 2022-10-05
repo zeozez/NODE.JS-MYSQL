@@ -27,3 +27,7 @@ class FeatureDictionary(object):
         else:
             dfTrain = self.dfTrain
         if self.dfTest is None:
+            dfTest = pd.read_csv(self.testfile)
+        else:
+            dfTest = self.dfTest
+        df = pd.concat([dfTrain, dfTest])
