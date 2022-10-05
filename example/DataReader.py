@@ -25,3 +25,5 @@ class FeatureDictionary(object):
         if self.dfTrain is None:
             dfTrain = pd.read_csv(self.trainfile)
         else:
+            dfTrain = self.dfTrain
+        if self.dfTest is None:
