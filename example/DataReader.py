@@ -19,3 +19,4 @@ class FeatureDictionary(object):
         self.dfTest = dfTest
         self.numeric_cols = numeric_cols
         self.ignore_cols = ignore_cols
+        self.gen_feat_dict()
