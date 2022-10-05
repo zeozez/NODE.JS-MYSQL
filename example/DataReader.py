@@ -20,3 +20,7 @@ class FeatureDictionary(object):
         self.numeric_cols = numeric_cols
         self.ignore_cols = ignore_cols
         self.gen_feat_dict()
+
+    def gen_feat_dict(self):
+        if self.dfTrain is None:
+            dfTrain = pd.read_csv(self.trainfile)
