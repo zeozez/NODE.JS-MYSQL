@@ -16,3 +16,6 @@ class FeatureDictionary(object):
         self.trainfile = trainfile
         self.testfile = testfile
         self.dfTrain = dfTrain
+        self.dfTest = dfTest
+        self.numeric_cols = numeric_cols
+        self.ignore_cols = ignore_cols
