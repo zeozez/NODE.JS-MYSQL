@@ -31,3 +31,4 @@ class FeatureDictionary(object):
         else:
             dfTest = self.dfTest
         df = pd.concat([dfTrain, dfTest])
+        self.feat_dict = {}
