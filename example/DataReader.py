@@ -14,3 +14,5 @@ class FeatureDictionary(object):
         assert not ((testfile is None) and (dfTest is None)), "testfile or dfTest at least one is set"
         assert not ((testfile is not None) and (dfTest is not None)), "only one can be set"
         self.trainfile = trainfile
+        self.testfile = testfile
+        self.dfTrain = dfTrain
