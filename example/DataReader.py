@@ -35,3 +35,4 @@ class FeatureDictionary(object):
         tc = 0
         for col in df.columns:
             if col in self.ignore_cols:
+                continue
