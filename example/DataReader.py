@@ -36,3 +36,4 @@ class FeatureDictionary(object):
         for col in df.columns:
             if col in self.ignore_cols:
                 continue
+            if col in self.numeric_cols:
