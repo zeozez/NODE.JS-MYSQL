@@ -39,3 +39,4 @@ class FeatureDictionary(object):
             if col in self.numeric_cols:
                 # map to a single index
                 self.feat_dict[col] = tc
+                tc += 1
