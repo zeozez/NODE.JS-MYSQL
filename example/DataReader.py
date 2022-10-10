@@ -43,3 +43,5 @@ class FeatureDictionary(object):
             else:
                 us = df[col].unique()
                 self.feat_dict[col] = dict(zip(us, range(tc, len(us)+tc)))
+                tc += len(us)
+        self.feat_dim = tc
