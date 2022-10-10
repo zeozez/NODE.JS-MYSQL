@@ -40,3 +40,4 @@ class FeatureDictionary(object):
                 # map to a single index
                 self.feat_dict[col] = tc
                 tc += 1
+            else:
