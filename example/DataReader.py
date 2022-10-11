@@ -53,3 +53,6 @@ class DataParser(object):
 
     def parse(self, infile=None, df=None, has_label=False):
         assert not ((infile is None) and (df is None)), "infile or df at least one is set"
+        assert not ((infile is not None) and (df is not None)), "only one can be set"
+        if infile is None:
+            dfi = df.copy()
