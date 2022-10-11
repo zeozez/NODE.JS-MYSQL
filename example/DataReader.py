@@ -50,3 +50,5 @@ class FeatureDictionary(object):
 class DataParser(object):
     def __init__(self, feat_dict):
         self.feat_dict = feat_dict
+
+    def parse(self, infile=None, df=None, has_label=False):
