@@ -48,3 +48,4 @@ class FeatureDictionary(object):
 
 
 class DataParser(object):
+    def __init__(self, feat_dict):
