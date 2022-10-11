@@ -52,3 +52,4 @@ class DataParser(object):
         self.feat_dict = feat_dict
 
     def parse(self, infile=None, df=None, has_label=False):
+        assert not ((infile is None) and (df is None)), "infile or df at least one is set"
