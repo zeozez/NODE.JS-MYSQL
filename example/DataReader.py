@@ -56,3 +56,4 @@ class DataParser(object):
         assert not ((infile is not None) and (df is not None)), "only one can be set"
         if infile is None:
             dfi = df.copy()
+        else:
