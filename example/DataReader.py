@@ -57,3 +57,4 @@ class DataParser(object):
         if infile is None:
             dfi = df.copy()
         else:
+            dfi = pd.read_csv(infile)
