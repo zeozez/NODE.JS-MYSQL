@@ -58,3 +58,5 @@ class DataParser(object):
             dfi = df.copy()
         else:
             dfi = pd.read_csv(infile)
+        if has_label:
+            y = dfi["target"].values.tolist()
