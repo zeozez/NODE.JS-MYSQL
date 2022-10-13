@@ -62,3 +62,4 @@ class DataParser(object):
             y = dfi["target"].values.tolist()
             dfi.drop(["id", "target"], axis=1, inplace=True)
         else:
+            ids = dfi["id"].values.tolist()
