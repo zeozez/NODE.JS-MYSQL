@@ -60,3 +60,5 @@ class DataParser(object):
             dfi = pd.read_csv(infile)
         if has_label:
             y = dfi["target"].values.tolist()
+            dfi.drop(["id", "target"], axis=1, inplace=True)
+        else:
