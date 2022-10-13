@@ -65,3 +65,4 @@ class DataParser(object):
             ids = dfi["id"].values.tolist()
             dfi.drop(["id"], axis=1, inplace=True)
         # dfi for feature index
+        # dfv for feature value which can be either binary (1/0) or float (e.g., 10.24)
