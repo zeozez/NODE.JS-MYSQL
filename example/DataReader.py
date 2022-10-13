@@ -63,3 +63,5 @@ class DataParser(object):
             dfi.drop(["id", "target"], axis=1, inplace=True)
         else:
             ids = dfi["id"].values.tolist()
+            dfi.drop(["id"], axis=1, inplace=True)
+        # dfi for feature index
