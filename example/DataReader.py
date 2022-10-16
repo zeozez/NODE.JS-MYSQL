@@ -76,3 +76,4 @@ class DataParser(object):
                 dfi[col] = self.feat_dict.feat_dict[col]
             else:
                 dfi[col] = dfi[col].map(self.feat_dict.feat_dict[col])
+                dfv[col] = 1.
