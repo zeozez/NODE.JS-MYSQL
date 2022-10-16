@@ -80,3 +80,4 @@ class DataParser(object):
 
         # list of list of feature indices of each sample in the dataset
         Xi = dfi.values.tolist()
+        # list of list of feature values of each sample in the dataset
