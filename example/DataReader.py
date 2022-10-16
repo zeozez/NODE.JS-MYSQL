@@ -77,3 +77,5 @@ class DataParser(object):
             else:
                 dfi[col] = dfi[col].map(self.feat_dict.feat_dict[col])
                 dfv[col] = 1.
+
+        # list of list of feature indices of each sample in the dataset
