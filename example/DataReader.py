@@ -71,3 +71,5 @@ class DataParser(object):
             if col in self.feat_dict.ignore_cols:
                 dfi.drop(col, axis=1, inplace=True)
                 dfv.drop(col, axis=1, inplace=True)
+                continue
+            if col in self.feat_dict.numeric_cols:
