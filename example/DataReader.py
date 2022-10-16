@@ -74,3 +74,5 @@ class DataParser(object):
                 continue
             if col in self.feat_dict.numeric_cols:
                 dfi[col] = self.feat_dict.feat_dict[col]
+            else:
+                dfi[col] = dfi[col].map(self.feat_dict.feat_dict[col])
