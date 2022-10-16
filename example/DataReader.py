@@ -85,3 +85,4 @@ class DataParser(object):
         if has_label:
             return Xi, Xv, y
         else:
+            return Xi, Xv, ids
