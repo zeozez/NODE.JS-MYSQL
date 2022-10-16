@@ -84,3 +84,4 @@ class DataParser(object):
         Xv = dfv.values.tolist()
         if has_label:
             return Xi, Xv, y
+        else:
