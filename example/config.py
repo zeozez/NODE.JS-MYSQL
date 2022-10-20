@@ -8,3 +8,6 @@ SUB_DIR = "./output"
 
 
 NUM_SPLITS = 3
+RANDOM_SEED = 2017
+
+# types of columns of the dataset dataframe
