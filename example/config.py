@@ -6,3 +6,5 @@ TEST_FILE = "./data/test.csv"
 
 SUB_DIR = "./output"
 
+
+NUM_SPLITS = 3
