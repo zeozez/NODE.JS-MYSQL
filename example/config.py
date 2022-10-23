@@ -24,3 +24,5 @@ NUMERIC_COLS = [
     # "ps_ind_06_bin", "ps_ind_07_bin", "ps_ind_08_bin",
     # "ps_ind_09_bin", "ps_ind_10_bin", "ps_ind_11_bin",
     # "ps_ind_12_bin", "ps_ind_13_bin", "ps_ind_16_bin",
+    # "ps_ind_17_bin", "ps_ind_18_bin",
+    # "ps_calc_15_bin", "ps_calc_16_bin", "ps_calc_17_bin",
