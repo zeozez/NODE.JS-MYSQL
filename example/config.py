@@ -18,3 +18,6 @@ CATEGORICAL_COLS = [
     # 'ps_car_07_cat', 'ps_car_08_cat', 'ps_car_09_cat',
     # 'ps_car_10_cat', 'ps_car_11_cat',
 ]
+
+NUMERIC_COLS = [
+    # # binary
