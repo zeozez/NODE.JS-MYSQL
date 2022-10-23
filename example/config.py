@@ -23,3 +23,4 @@ NUMERIC_COLS = [
     # # binary
     # "ps_ind_06_bin", "ps_ind_07_bin", "ps_ind_08_bin",
     # "ps_ind_09_bin", "ps_ind_10_bin", "ps_ind_11_bin",
+    # "ps_ind_12_bin", "ps_ind_13_bin", "ps_ind_16_bin",
