@@ -21,3 +21,4 @@ CATEGORICAL_COLS = [
 
 NUMERIC_COLS = [
     # # binary
+    # "ps_ind_06_bin", "ps_ind_07_bin", "ps_ind_08_bin",
