@@ -34,3 +34,7 @@ NUMERIC_COLS = [
     # feature engineering
     "missing_feat", "ps_car_13_x_ps_reg_03",
 ]
+
+IGNORE_COLS = [
+    "id", "target",
+    "ps_calc_01", "ps_calc_02", "ps_calc_03", "ps_calc_04",
