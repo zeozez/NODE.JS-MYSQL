@@ -28,3 +28,8 @@ NUMERIC_COLS = [
     # "ps_calc_15_bin", "ps_calc_16_bin", "ps_calc_17_bin",
     # "ps_calc_18_bin", "ps_calc_19_bin", "ps_calc_20_bin",
     # numeric
+    "ps_reg_01", "ps_reg_02", "ps_reg_03",
+    "ps_car_12", "ps_car_13", "ps_car_14", "ps_car_15",
+
+    # feature engineering
+    "missing_feat", "ps_car_13_x_ps_reg_03",
