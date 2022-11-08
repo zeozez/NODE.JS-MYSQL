@@ -18,3 +18,5 @@ from DeepFM import DeepFM
 
 gini_scorer = make_scorer(gini_norm, greater_is_better=True, needs_proba=True)
 
+
+def _load_data():
