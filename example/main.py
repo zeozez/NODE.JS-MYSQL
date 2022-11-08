@@ -22,3 +22,4 @@ gini_scorer = make_scorer(gini_norm, greater_is_better=True, needs_proba=True)
 def _load_data():
 
     dfTrain = pd.read_csv(config.TRAIN_FILE)
+    dfTest = pd.read_csv(config.TEST_FILE)
