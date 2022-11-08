@@ -23,3 +23,5 @@ def _load_data():
 
     dfTrain = pd.read_csv(config.TRAIN_FILE)
     dfTest = pd.read_csv(config.TEST_FILE)
+
+    def preprocess(df):
