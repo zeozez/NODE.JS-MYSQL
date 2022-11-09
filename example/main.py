@@ -39,3 +39,4 @@ def _load_data():
     X_train = dfTrain[cols].values
     y_train = dfTrain["target"].values
     X_test = dfTest[cols].values
+    ids_test = dfTest["id"].values
