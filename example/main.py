@@ -35,3 +35,6 @@ def _load_data():
 
     cols = [c for c in dfTrain.columns if c not in ["id", "target"]]
     cols = [c for c in cols if (not c in config.IGNORE_COLS)]
+
+    X_train = dfTrain[cols].values
+    y_train = dfTrain["target"].values
