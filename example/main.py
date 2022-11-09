@@ -25,3 +25,4 @@ def _load_data():
     dfTest = pd.read_csv(config.TEST_FILE)
 
     def preprocess(df):
+        cols = [c for c in df.columns if c not in ["id", "target"]]
