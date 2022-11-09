@@ -32,3 +32,5 @@ def _load_data():
 
     dfTrain = preprocess(dfTrain)
     dfTest = preprocess(dfTest)
+
+    cols = [c for c in dfTrain.columns if c not in ["id", "target"]]
