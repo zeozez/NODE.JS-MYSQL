@@ -34,3 +34,4 @@ def _load_data():
     dfTest = preprocess(dfTest)
 
     cols = [c for c in dfTrain.columns if c not in ["id", "target"]]
+    cols = [c for c in cols if (not c in config.IGNORE_COLS)]
