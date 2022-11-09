@@ -40,3 +40,4 @@ def _load_data():
     y_train = dfTrain["target"].values
     X_test = dfTest[cols].values
     ids_test = dfTest["id"].values
+    cat_features_indices = [i for i,c in enumerate(cols) if c in config.CATEGORICAL_COLS]
