@@ -48,3 +48,4 @@ def _load_data():
 def _run_base_model_dfm(dfTrain, dfTest, folds, dfm_params):
     fd = FeatureDictionary(dfTrain=dfTrain, dfTest=dfTest,
                            numeric_cols=config.NUMERIC_COLS,
+                           ignore_cols=config.IGNORE_COLS)
