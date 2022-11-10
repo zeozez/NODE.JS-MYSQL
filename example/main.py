@@ -44,3 +44,6 @@ def _load_data():
 
     return dfTrain, dfTest, X_train, y_train, X_test, ids_test, cat_features_indices
 
+
+def _run_base_model_dfm(dfTrain, dfTest, folds, dfm_params):
+    fd = FeatureDictionary(dfTrain=dfTrain, dfTest=dfTest,
