@@ -54,3 +54,4 @@ def _run_base_model_dfm(dfTrain, dfTest, folds, dfm_params):
     Xi_test, Xv_test, ids_test = data_parser.parse(df=dfTest)
 
     dfm_params["feature_size"] = fd.feat_dim
+    dfm_params["field_size"] = len(Xi_train[0])
