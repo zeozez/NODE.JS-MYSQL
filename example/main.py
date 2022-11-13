@@ -55,3 +55,8 @@ def _run_base_model_dfm(dfTrain, dfTest, folds, dfm_params):
 
     dfm_params["feature_size"] = fd.feat_dim
     dfm_params["field_size"] = len(Xi_train[0])
+
+    y_train_meta = np.zeros((dfTrain.shape[0], 1), dtype=float)
+    y_test_meta = np.zeros((dfTest.shape[0], 1), dtype=float)
+    _get = lambda x, l: [x[i] for i in l]
+    gini_results_cv = np.zeros(len(folds), dtype=float)
