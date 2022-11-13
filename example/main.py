@@ -60,3 +60,4 @@ def _run_base_model_dfm(dfTrain, dfTest, folds, dfm_params):
     y_test_meta = np.zeros((dfTest.shape[0], 1), dtype=float)
     _get = lambda x, l: [x[i] for i in l]
     gini_results_cv = np.zeros(len(folds), dtype=float)
+    gini_results_epoch_train = np.zeros((len(folds), dfm_params["epoch"]), dtype=float)
