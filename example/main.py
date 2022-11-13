@@ -75,3 +75,7 @@ def _run_base_model_dfm(dfTrain, dfTest, folds, dfm_params):
         gini_results_cv[i] = gini_norm(y_valid_, y_train_meta[valid_idx])
         gini_results_epoch_train[i] = dfm.train_result
         gini_results_epoch_valid[i] = dfm.valid_result
+
+    y_test_meta /= float(len(folds))
+
+    # save result
