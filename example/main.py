@@ -61,3 +61,7 @@ def _run_base_model_dfm(dfTrain, dfTest, folds, dfm_params):
     _get = lambda x, l: [x[i] for i in l]
     gini_results_cv = np.zeros(len(folds), dtype=float)
     gini_results_epoch_train = np.zeros((len(folds), dfm_params["epoch"]), dtype=float)
+    gini_results_epoch_valid = np.zeros((len(folds), dfm_params["epoch"]), dtype=float)
+    for i, (train_idx, valid_idx) in enumerate(folds):
+        Xi_train_, Xv_train_, y_train_ = _get(Xi_train, train_idx), _get(Xv_train, train_idx), _get(y_train, train_idx)
+        Xi_valid_, Xv_valid_, y_valid_ = _get(Xi_train, valid_idx), _get(Xv_train, valid_idx), _get(y_train, valid_idx)
