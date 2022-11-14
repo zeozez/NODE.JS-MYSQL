@@ -79,3 +79,4 @@ def _run_base_model_dfm(dfTrain, dfTest, folds, dfm_params):
     y_test_meta /= float(len(folds))
 
     # save result
+    if dfm_params["use_fm"] and dfm_params["use_deep"]:
