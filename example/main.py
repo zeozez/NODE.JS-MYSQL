@@ -90,3 +90,5 @@ def _run_base_model_dfm(dfTrain, dfTest, folds, dfm_params):
     _make_submission(ids_test, y_test_meta, filename)
 
     _plot_fig(gini_results_epoch_train, gini_results_epoch_valid, clf_str)
+
+    return y_train_meta, y_test_meta
