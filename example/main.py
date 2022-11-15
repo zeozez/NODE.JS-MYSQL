@@ -85,3 +85,5 @@ def _run_base_model_dfm(dfTrain, dfTest, folds, dfm_params):
         clf_str = "FM"
     elif dfm_params["use_deep"]:
         clf_str = "DNN"
+    print("%s: %.5f (%.5f)"%(clf_str, gini_results_cv.mean(), gini_results_cv.std()))
+    filename = "%s_Mean%.5f_Std%.5f.csv"%(clf_str, gini_results_cv.mean(), gini_results_cv.std())
