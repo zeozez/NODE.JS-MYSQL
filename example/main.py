@@ -84,3 +84,4 @@ def _run_base_model_dfm(dfTrain, dfTest, folds, dfm_params):
     elif dfm_params["use_fm"]:
         clf_str = "FM"
     elif dfm_params["use_deep"]:
+        clf_str = "DNN"
