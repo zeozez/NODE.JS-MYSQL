@@ -102,3 +102,6 @@ def _make_submission(ids, y_pred, filename="submission.csv"):
 def _plot_fig(train_results, valid_results, model_name):
     colors = ["red", "blue", "green"]
     xs = np.arange(1, train_results.shape[1]+1)
+    plt.figure()
+    legends = []
+    for i in range(train_results.shape[0]):
