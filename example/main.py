@@ -93,3 +93,5 @@ def _run_base_model_dfm(dfTrain, dfTest, folds, dfm_params):
 
     return y_train_meta, y_test_meta
 
+
+def _make_submission(ids, y_pred, filename="submission.csv"):
