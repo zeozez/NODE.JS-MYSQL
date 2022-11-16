@@ -95,3 +95,5 @@ def _run_base_model_dfm(dfTrain, dfTest, folds, dfm_params):
 
 
 def _make_submission(ids, y_pred, filename="submission.csv"):
+    pd.DataFrame({"id": ids, "target": y_pred.flatten()}).to_csv(
+        os.path.join(config.SUB_DIR, filename), index=False, float_format="%.5f")
