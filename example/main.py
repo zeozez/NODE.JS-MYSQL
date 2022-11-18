@@ -105,3 +105,4 @@ def _plot_fig(train_results, valid_results, model_name):
     plt.figure()
     legends = []
     for i in range(train_results.shape[0]):
+        plt.plot(xs, train_results[i], color=colors[i], linestyle="solid", marker="o")
