@@ -106,3 +106,5 @@ def _plot_fig(train_results, valid_results, model_name):
     legends = []
     for i in range(train_results.shape[0]):
         plt.plot(xs, train_results[i], color=colors[i], linestyle="solid", marker="o")
+        plt.plot(xs, valid_results[i], color=colors[i], linestyle="dashed", marker="o")
+        legends.append("train-%d"%(i+1))
