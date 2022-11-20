@@ -115,3 +115,6 @@ def _plot_fig(train_results, valid_results, model_name):
     plt.legend(legends)
     plt.savefig("./fig/%s.png"%model_name)
     plt.close()
+
+
+# load data
