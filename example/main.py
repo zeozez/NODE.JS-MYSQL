@@ -110,3 +110,5 @@ def _plot_fig(train_results, valid_results, model_name):
         legends.append("train-%d"%(i+1))
         legends.append("valid-%d"%(i+1))
     plt.xlabel("Epoch")
+    plt.ylabel("Normalized Gini")
+    plt.title("%s"%model_name)
