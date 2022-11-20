@@ -108,3 +108,5 @@ def _plot_fig(train_results, valid_results, model_name):
         plt.plot(xs, train_results[i], color=colors[i], linestyle="solid", marker="o")
         plt.plot(xs, valid_results[i], color=colors[i], linestyle="dashed", marker="o")
         legends.append("train-%d"%(i+1))
+        legends.append("valid-%d"%(i+1))
+    plt.xlabel("Epoch")
