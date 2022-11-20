@@ -121,3 +121,4 @@ def _plot_fig(train_results, valid_results, model_name):
 dfTrain, dfTest, X_train, y_train, X_test, ids_test, cat_features_indices = _load_data()
 
 # folds
+folds = list(StratifiedKFold(n_splits=config.NUM_SPLITS, shuffle=True,
