@@ -122,3 +122,7 @@ dfTrain, dfTest, X_train, y_train, X_test, ids_test, cat_features_indices = _loa
 
 # folds
 folds = list(StratifiedKFold(n_splits=config.NUM_SPLITS, shuffle=True,
+                             random_state=config.RANDOM_SEED).split(X_train, y_train))
+
+
+# ------------------ DeepFM Model ------------------
