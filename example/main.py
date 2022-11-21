@@ -126,3 +126,6 @@ folds = list(StratifiedKFold(n_splits=config.NUM_SPLITS, shuffle=True,
 
 
 # ------------------ DeepFM Model ------------------
+# params
+dfm_params = {
+    "use_fm": True,
