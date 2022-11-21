@@ -131,3 +131,4 @@ dfm_params = {
     "use_fm": True,
     "use_deep": True,
     "embedding_size": 8,
+    "dropout_fm": [1.0, 1.0],
