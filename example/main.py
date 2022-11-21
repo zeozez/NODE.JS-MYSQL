@@ -129,3 +129,5 @@ folds = list(StratifiedKFold(n_splits=config.NUM_SPLITS, shuffle=True,
 # params
 dfm_params = {
     "use_fm": True,
+    "use_deep": True,
+    "embedding_size": 8,
