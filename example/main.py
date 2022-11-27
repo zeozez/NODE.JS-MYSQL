@@ -139,3 +139,4 @@ dfm_params = {
     "batch_size": 1024,
     "learning_rate": 0.001,
     "optimizer_type": "adam",
+    "batch_norm": 1,
