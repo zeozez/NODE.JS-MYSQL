@@ -140,3 +140,7 @@ dfm_params = {
     "learning_rate": 0.001,
     "optimizer_type": "adam",
     "batch_norm": 1,
+    "batch_norm_decay": 0.995,
+    "l2_reg": 0.01,
+    "verbose": True,
+    "eval_metric": gini_norm,
