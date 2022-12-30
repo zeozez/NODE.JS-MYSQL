@@ -153,3 +153,6 @@ fm_params = dfm_params.copy()
 fm_params["use_deep"] = False
 y_train_fm, y_test_fm = _run_base_model_dfm(dfTrain, dfTest, folds, fm_params)
 
+
+# ------------------ DNN Model ------------------
+dnn_params = dfm_params.copy()
