@@ -13,3 +13,4 @@ def gini(actual, pred):
     return giniSum / len(actual)
 
 def gini_norm(actual, pred):
+    return gini(actual, pred) / gini(actual, actual)
